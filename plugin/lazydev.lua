@@ -1,8 +1,8 @@
-vim.api.nvim_create_user_command("is work", function()
+vim.api.nvim_create_user_command("IsWork", function()
   print("Yep!")
 end, {})
 
-vim.api.nvim_api_create_user_command("SuggerImports", function(opts)
+vim.api.nvim_api_create_user_command("SuggestImports", function(opts)
     
   local prefix = opts.args or ""
 
