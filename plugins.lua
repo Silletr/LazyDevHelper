@@ -31,3 +31,5 @@ return require('packer').startup(function(use)
     })
 
 end)
+
+vim.keymap.set("n", "<C-b>", ":NvimTreeFindFileToggle<CR>", { noremap = true, silent = true } )

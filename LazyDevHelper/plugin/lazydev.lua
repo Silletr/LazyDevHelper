@@ -1,8 +1,8 @@
 vim.api.nvim_create_user_command("is work", function()
   print("Yep!")
 end, {})
+
 --  Creating function with getting all libraries (executing pip list on ../python/pip_check.py.py) 
-  --
 vim.api.nvim_create_user_command("SuggestImports", function(opts)
     local prefix = opts.args or ""
     
