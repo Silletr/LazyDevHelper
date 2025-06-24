@@ -2,7 +2,7 @@ vim.api.nvim_create_user_command("IsWork", function()
   print("Yep!")
 end, {})
 
---  Creating function with getting all libraries (executing pip list on ../python/pip_check.py.py) 
+--  Creating function with getting all libraries (executing pip list on LazyDevHelper/python/pip_check.py.py) 
 vim.api.nvim_api_create_user_command("SuggerImports", function(opts)
   local prefix = opts.args or ""
 
