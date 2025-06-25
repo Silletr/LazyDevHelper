@@ -2,6 +2,12 @@
 
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
+---
+### ⚠️ WARNING:
+Still cooking... 🍳  
+Right now, the plugin can only **check for libraries** via pip list.  
+Auto-installation & requirements.txt support coming soon™.
+---
 
 <h1>Introduction</h1>
 
