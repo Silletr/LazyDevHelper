@@ -1,7 +1,6 @@
 -- First command with debug
 vim.api.nvim_create_user_command("IsWorking", function()
   print("Yep!")
-  print("Command executed successfully")
 end, {})
 
 -- Second command with debug
@@ -23,7 +22,9 @@ vim.api.nvim_create_user_command("SuggestImports", function(opts)
         handle:close()
         
         if result == "" then
-            print("No matches 🤔")
+            print("No matches 🤔 (Or u forgot write needed library name)" ..)
+            print("Dont worry, at future updates i`ll add automatically 
+                code analyzis and downloading libraries from pip3 install and adding this to requirements.txt (if thats exists, else - creating and adding)")
         else
             print("Variants: \n", result)
         end
