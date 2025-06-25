@@ -9,7 +9,7 @@
 
 > "I added 5 libs into my code before installing them, and now I need to write code with them... but I don't wanna switch to the console!"
 
-If yes — **Congratulations!** 🎉  
+If yes — **Congratulations!** 🎉
 **You've found the Neovim plugin that can help you with both coding and installing Python libraries.**
 
 ---
@@ -18,6 +18,6 @@ If yes — **Congratulations!** 🎉
 
 This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.
 
-<p>If you spot any errors or want to help — feel free to create a Pull Request.  
+<p>If you spot any errors or want to help — feel free to create a Pull Request. 
 If it works (and I test it), I’ll definitely consider adding your version to the project!</p>
 
