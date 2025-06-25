@@ -1,5 +1,6 @@
 import subprocess
-from python.pip_check import get_installed_libs
+from pip_check import get_installed_libs
+
 
 def install_lib():
     installed_libs = get_installed_libs()
@@ -11,5 +12,4 @@ def install_lib():
         print("No packages found")
 
 
-if __name__ == "__main__":
-    install_lib()
+install_lib()
