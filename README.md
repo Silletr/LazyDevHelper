@@ -6,7 +6,7 @@
 ### ⚠️ WARNING:
 Still cooking... 🍳  
 Right now, the plugin can only **check for libraries** via pip list.  
-Auto-installation & requirements.txt support coming soon™.
+Auto-installation & requirements.txt support coming soon.
 ---
 
 <h1>Introduction</h1>
