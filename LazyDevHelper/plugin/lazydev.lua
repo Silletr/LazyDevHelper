@@ -7,11 +7,7 @@ end, {})
 vim.api.nvim_create_user_command("SuggestImports", function(opts)
     print("SuggestImports command started")
     local prefix = opts.args or ""
-    print("Prefix:", prefix)
-    
     local script_path = vim.fn.stdpath('config') .. '/lua/LazyDevHelper/python/pip_check.py'
-    print("Script path:", script_path)
-    
     local cmd = string.format("python3 %s %s", script_path, prefix)
     print("Command to execute:", cmd)
     
