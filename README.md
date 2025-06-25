@@ -11,15 +11,22 @@
 
 If yes — **Congratulations!** 🎉  
 **You've found the Neovim plugin that can help you with both coding and installing Python libraries.**
-
+---
+# ❌ Errors
+At 06/25/2025 - i have one big problem with :SuggestImports, detailed see in: 
+[Link to Issue page](https://github.com/Silletr/LazyDevHelper/issues/7)
 ---
 ### ❓ How  to work 
 Very simple:
-For Packer: 
-  add to ur init.lua: use 'silletr/LazyDevHelper', then :PackerInstall 
-and thats all, that u need 
+At first install:
+    **For Packer: 
+      add to ur init.lua: use 'silletr/LazyDevHelper', then :PackerInstall**
+    and thats all, that u need 
+
+Second one: 
+use :SuggestImports in needed file (or just random file, does not matter)
 ---
-<h3>Status as of 06.24.2025:</h3>
+<h3>Status as of 06/24/2025:</h3>
 
 This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.
 
