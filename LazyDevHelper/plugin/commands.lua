@@ -7,30 +7,22 @@ M.commands = function()
     end, {})
 
     vim.api.nvim_create_user_command("SuggestImports", function(opts)
-        print("SuggestImports command started")
-        local prefix = opts.args or ""
-        
-        local script_path = vim.fn.stdpath('config') .. '/lua/LazyDevHelper/python/pip_check.py'
-        print("Script path:", script_path)
-        
-        local cmd = string.format("python3 %s %s", script_path, prefix)
-        print("Command to execute:", cmd)
-        
-        local handle = io.popen(cmd)
-        if handle then
-            print("Python script executed successfully")
-            local result = handle:read("*a")
-            handle:close()
-            
-            if result == "" then
-                print("No matches 🤔")
+        local args = opts.fargs
+        local script_path = 'home/silletr/.config/nvim/lua/LazyDevHelper/python/pip_install.py'
+        local result = vim.fn.system(cmd)
+
+        for _, lib in ipairs(args) do
+            local result = vim.system({ "python3", script_path, lib }, { text = true }):wait()
+            -- local output = vim.fn.system(result)
+            print("📦 Result for: " .. lib)
+            print(output)
+            if result.code == 0 then
+                print(result.stdout)
             else
-                print("Variants: \n", result)
+                print("❌ Error:")
+                print(result.stderr)
             end
-        else
-            print("Error: Could not execute Python script")
         end
-    end, { nargs = "?" })
-end
+end, { nargs = "+" })
 
 return M
