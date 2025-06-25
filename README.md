@@ -13,7 +13,12 @@ If yes — **Congratulations!** 🎉
 **You've found the Neovim plugin that can help you with both coding and installing Python libraries.**
 
 ---
-
+### ❓ How  to work 
+Very simple:
+For Packer: 
+  add to ur init.lua: use 'silletr/LazyDevHelper', then :PackerInstall 
+and thats all, that u need 
+---
 <h3>Status as of 06.24.2025:</h3>
 
 This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.
