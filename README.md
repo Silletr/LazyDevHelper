@@ -22,7 +22,7 @@ If yes — **Congratulations!** 🎉
 Status to: 
 <pre>
   26/06/2025 - <b>ISSUE 7 - CLOSED</b>
-    Caused by - i fixed this error and now plugin doing main functional (installing library to pip)
+    Cause - i fixed this error and now plugin doing main functional (installing library to pip)
 </pre>    
 If u have any suggest - or send comment to issue, or send push request, <b>i`ll check it and add to main branch if your variant working
 
