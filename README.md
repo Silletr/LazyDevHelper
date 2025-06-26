@@ -5,8 +5,8 @@
 ---
 ### ⚠️ WARNING:
 Still cooking... 🍳  
-Right now, the plugin can only **check for libraries** via pip list.  
-Auto-installation & requirements.txt support coming soon.
+Right now, the plugin can only <b>check for libraries and installing</b> via pip list && pip install ...   
+Adding to requirements.txt support coming soon.
 ---
 
 <h1>Introduction</h1>
@@ -19,24 +19,26 @@ If yes — **Congratulations!** 🎉
 **You've found the Neovim plugin that can help you with both coding and installing Python libraries.**
 ---
 # ❌ Errors
-At 06/25/2025 - i have one big problem with :SuggestImports, detailed see in: 
-[Link to Issue page](https://github.com/Silletr/LazyDevHelper/issues/7)
+Status to: 
+<pre>
+  26/06/2025 - <b>ISSUE 7 - CLOSED</b>
+    Caused by - i fixed this error and now plugin doing main functional (installing library to pip)
+</pre>    
+If u have any suggest - or send comment to issue, or send push request, <b>i`ll check it and add to main branch if your variant working
 
-If u have any suggest - or send comment to issue, or send push request, **i`ll check it and add to main branch if your variant working**
 ---
 ### ❓ How  to work 
 Very simple:
-### Installing:
-   **For Packer: 
-      add to ur init.lua: use 'silletr/LazyDevHelper', then :PackerInstall**
-   and thats all, that u need
+### Installing:  
+**For Packer:  
+add to ur init.lua: use 'silletr/LazyDevHelper', then :PackerInstall**  
+And thats all, what u need
 
 
 Second step: 
-use :SuggestImports in needed file (or just random file, does not matter)
+use :SuggestImports {lib_names} in needed file (or just random file, does not matter)
 ---
-<h3>Status as of 06/24/2025:</h3>
-
+<h3>Status of 06/26/2025:</h3>
 **This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.**
 
 <p>If you spot any errors or want to help — feel free to create a Issua and Push Request.  
