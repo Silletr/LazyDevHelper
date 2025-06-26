@@ -1,4 +1,4 @@
-# ⌨ LazyDevHelper
+![image](https://github.com/user-attachments/assets/cc2d90a8-3b7a-4049-8529-fa6a3e125e40)# ⌨ LazyDevHelper
 
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
@@ -13,7 +13,7 @@ Auto-installation & requirements.txt support coming soon.
 
 *Have you ever been in a situation like:*
 
-> "I added 5 libs into my code before installing them, and now I need to write code with them... but I don't wanna switch to the console!"
+> "I added 5 libs into my code before installing them, and now I need to write code with them... but I don't wanna switch to the console and write command. fucking world and terminal."
 
 If yes — **Congratulations!** 🎉  
 **You've found the Neovim plugin that can help you with both coding and installing Python libraries.**
@@ -21,6 +21,8 @@ If yes — **Congratulations!** 🎉
 # ❌ Errors
 At 06/25/2025 - i have one big problem with :SuggestImports, detailed see in: 
 [Link to Issue page](https://github.com/Silletr/LazyDevHelper/issues/7)
+
+If u have any suggest - or send comment to issue, or send push request, **i`ll check it and add to main branch if your variant working**
 ---
 ### ❓ How  to work 
 Very simple:
@@ -34,7 +36,7 @@ use :SuggestImports in needed file (or just random file, does not matter)
 ---
 <h3>Status as of 06/24/2025:</h3>
 
-This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.
+**This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.**
 
 <p>If you spot any errors or want to help — feel free to create a Pull Request.  
 If it works (and I test it), I’ll definitely consider adding your version to the project!</p>
