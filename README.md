@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cc2d90a8-3b7a-4049-8529-fa6a3e125e40)# ⌨ LazyDevHelper
+ ⌨ LazyDevHelper
 
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
