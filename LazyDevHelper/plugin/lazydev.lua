@@ -1,9 +1,4 @@
 -- First command with debug
-vim.api.nvim_create_user_command("IsWorking", function()
-  print("Yep!")
-end, {})
-
--- Second command with debug
     vim.api.nvim_create_user_command("SuggestImports", function(opts)
         local args = opts.fargs
         local script_path = vim.fn.stdpath("config") .. "/lua/LazyDevHelper/python/pip_install.py"
