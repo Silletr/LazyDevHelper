@@ -8,7 +8,7 @@ def install_lib(lib_name: str):
     print(f"📦 Installing {lib_name} ...")
     try:
         result = subprocess.run(
-            ["pip3", "install", lib_name],
+            ["pip3", "install", lib_name, "--upgrade"],
             capture_output=False,
             text=True,
             check=True,
