@@ -48,3 +48,10 @@ Just use :SuggestImports {lib_names} in needed file (or just random file, does n
 
 <p>If you spot any errors or want to help — feel free to create a Issua and Push Request.  
 If it works (I will test it), I’ll definitely consider adding your version to the project!</p>
+
+--- TAGS (Dont pay attention)
+neovim
+neovim-plugin
+plugin
+autoinstall
+automation
