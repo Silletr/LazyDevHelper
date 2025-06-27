@@ -1,5 +1,4 @@
 ## LazyDevHelper
-
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
 ---
@@ -50,7 +49,7 @@ Just use :SuggestImports {lib_names} in needed file (or just random file, does n
 If it works (I will test it), I’ll definitely consider adding your version to the project!</p>
 
 --- 
-TAGS (Dont pay attention)  
+### TAGS (Dont pay attention)  
 
 neovim
 neovim-plugin
