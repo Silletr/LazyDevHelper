@@ -1,4 +1,4 @@
-### ⌨ LazyDevHelper
+## LazyDevHelper
 
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
@@ -39,8 +39,11 @@ If u have any suggest - or send comment to issue, or send push request, <b>i`ll 
 And thats all, what u need
 
 ---
+
 ### ❓ Usage
 Just use :SuggestImports {lib_names} in needed file (or just random file, does not matter)
+Example of usage:
+:SuggestImports flask requests stmrealit 
 
 ---
 ### 📊 Status of plugin
