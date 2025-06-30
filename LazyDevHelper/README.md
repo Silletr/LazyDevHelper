@@ -39,7 +39,6 @@ If u have any suggest - or send comment to issue, or send push request, <b>i`ll 
 And thats all, what u need
 
 ---
-
 ### ❓ Usage
 Just use :SuggestImports {lib_names} in needed file (or just random file, does not matter)
 Example of usage:
