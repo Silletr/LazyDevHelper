@@ -39,7 +39,8 @@ If u have any suggest - or send comment to issue, or send push request, <b>i`ll 
 And thats all, what u need
 ---
 ### 🔎 Avaible in:
-Vim.org - https://www.vim.org/scripts/script.php?script_id=6156
+Vim.org - https://www.vim.org/scripts/script.php?script_id=6156  
+
 Soon i will add plugin to NeoVimCraft.
 ---
 ### ❓ Usage
