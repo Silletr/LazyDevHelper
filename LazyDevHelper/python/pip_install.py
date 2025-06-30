@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 #!/usr/bin/env python3
 
-print(">>> pip_install started <<<")
->>>>>>> main
+
 import subprocess
 import sys
 
