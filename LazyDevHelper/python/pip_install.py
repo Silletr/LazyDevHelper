@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 #!/usr/bin/env python3
 
 print(">>> pip_install started <<<")
+>>>>>>> main
 import subprocess
 import sys
+
+print(">> python/pip_install.py imported")
 
 
 def install_lib(lib_name: str):
@@ -13,7 +17,7 @@ def install_lib(lib_name: str):
             check=True,
             text=True,
             stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT
+            stderr=subprocess.STDOUT,
         )
         output = result.stdout.lower()
         
@@ -24,13 +28,16 @@ def install_lib(lib_name: str):
             with open("requirements.txt", "a")
         else:
             print(f"Installation result:\n{output.splitlines()[0]}")
-        
-        with open("requirements.txt", "a") as file:
-            file.write(f"{lib_name}\n")
+       print(result.stdout)
 
+        if result.stderr:
+            print(result.stderr)
+            with open("requirements.txt", "a") as file:
+                file.write(result.stdout)
     except subprocess.CalledProcessError as e:
         print(f"❌ Failed to install {lib_name}")
         print(e.output)
+
 
 def main():
     if len(sys.argv) < 2:
@@ -39,6 +46,7 @@ def main():
 
     for lib in sys.argv[1:]:
         install_lib(lib)
+
 
 if __name__ == "__main__":
     main()
