@@ -44,7 +44,6 @@ And thats all, what u need
 Just use :SuggestImports {lib_names} in needed file (or just random file, does not matter)
 Example of usage:
 :SuggestImports flask requests stmrealit 
-
 ---
 ### 📊 Status of plugin
 <h3>Status of 06/26/2025:</h3>
