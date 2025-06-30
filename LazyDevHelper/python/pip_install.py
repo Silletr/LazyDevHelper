@@ -15,13 +15,13 @@ def install_lib(lib_name: str):
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT
         )
-        print(f"Installing {lib_name} on processing\n")
         output = result.stdout.lower()
         
         if "requirement already satisfied" in output:
             print(f"✅ {lib_name} already installed")
         elif "successfully installed" in output:
             print(f"✅ {lib_name} successfully installed")
+            with open("requirements.txt", "a")
         else:
             print(f"Installation result:\n{output.splitlines()[0]}")
         
@@ -31,7 +31,6 @@ def install_lib(lib_name: str):
     except subprocess.CalledProcessError as e:
         print(f"❌ Failed to install {lib_name}")
         print(e.output)
-
 
 def main():
     if len(sys.argv) < 2:
