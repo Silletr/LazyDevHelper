@@ -5,24 +5,38 @@ M.commands = function()
         print("Yep!")
         print("Command executed successfully")
     end, {})
-
     vim.api.nvim_create_user_command("SuggestImports", function(opts)
         local args = opts.fargs
         local script_path = vim.fn.stdpath("config") .. "/lua/LazyDevHelper/python/pip_install.py"
 
         for _, lib in ipairs(args) do
-            local result = vim.system({ "python3", script_path, lib }, { text = true }):wait()
+            local cmd = string.format(
+                'python3 -c "import subprocess; print(subprocess.run([\'%s\', \'%s\'], capture_output=True, text=True).stdout)"',
+                script_path, lib
+            )
+            local result = vim.fn.system(cmd)
+
             print("📦 Result for: " .. lib)
-            if result.code == 0 then
-                print(result.stdout)
+            if result then
+                print(result)
             else
-                print("❌ Error:")
-                print(result.stderr)
+                print("❌ Error executing command")
             end
         end
-    end, { nargs = "+" })
+end, { nargs = "+" })
+
+    local commands = vim.api.nvim_get_commands({ scope = 'all' })
+    local found = false
+    for _, cmd in ipairs(commands) do
+        if cmd.name == 'SuggestImports' then
+            found = true
+            break
+        end
+    end
+    if not found then
+        vim.notify('Error: SuggestImports command not registered', vim.log.levels.ERROR)
+    end
 end
 
 M.commands()
 return M
-
