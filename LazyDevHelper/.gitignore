@@ -1,0 +1,5 @@
+.pre-commit-config.yaml
+.env
+__pycache__
+*.pyc
+
