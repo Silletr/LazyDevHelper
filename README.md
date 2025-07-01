@@ -15,6 +15,8 @@
 - Check installed libraries
 - Simple command interface
 - Packer installation support
+---
+### 💡 Installation: 
 ```lua
 use {
     'Silletr/LazyDevHelper',
@@ -23,8 +25,6 @@ use {
     end
 }
 ```
-
-
 ---
 <h1>Introduction</h1>
 
@@ -40,14 +40,14 @@ Error status:
 <pre>
   26/06/2025 - <b>ISSUE 7 - CLOSED</b>
     Cause - i fixed this error and now plugin doing main functional (installing library to pip)
-</pre>    
+</pre>
 If u have any suggest - or send comment to issue, or send push request, <b>i`ll check it and add to main branch if your variant working
 ---
-
 ### Installation Requirements
 - Neovim 0.9+
 - Python 3.10+
 ---
+
 ### ❓ Usage
 Entered command example:
 ![Input example](LazyDevHelper/images/command_example.png)  
@@ -60,6 +60,7 @@ Output example:
 <b>This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.</b>
 
 <h3>Status of: 01/07/2025</h3>
-Plugin still in development, and i think how i can add libraries to requiremenents file, <b>if u have any ideas see below</b>:
+First release day, but:
+<b>Plugin still in development, and i think how i can add libraries to requiremenents file, if u have any ideas see below</b>:
 <p>If you spot any errors or want to help — feel free to create a Issua and Push Request.  
 If it works (I will test it), I’ll definitely consider adding your version to the project!</p>
