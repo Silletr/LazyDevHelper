@@ -1,11 +1,25 @@
 #!/usr/bin/env python3
+
 print(">>> pip_install started <<<")
 
 import subprocess
 import sys
 
+libs_list = set() 
+
 def install_lib(lib_name: str):
     print(f"📦 Installing {lib_name} ...\n")
+    global libs_list
+    with open("requirements.txt", "a+") as file:
+        # read lines of requirements file
+        all_libs = file.readlines()
+        libs_list = set(line.strip() for line in all_libs)
+        # Add library if it doesnt exists
+        if lib_name not in libs_list:
+            libs_list.add(lib_name)
+            file.write(f"{lib_name}\n")
+
+
     try:
         global result
         result = subprocess.run(
