@@ -1,2 +1,4 @@
 isvirtual
 cmc-py-wrapper
+strealit
+streamlit
