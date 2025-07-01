@@ -42,7 +42,7 @@ And thats all, what u need
 ### ❓ Usage
 Just use :SuggestImports {lib_names} in needed file (or just random file, does not matter)
 Example of usage:
-:SuggestImports flask requests stmrealit 
+![command example](images/command_example.png)
 ---
 ### 📊 Status of plugin
 <h3>Status of 06/26/2025:</h3>
