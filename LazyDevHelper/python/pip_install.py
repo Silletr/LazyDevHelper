@@ -5,7 +5,7 @@ import subprocess
 import sys
 
 def install_lib(lib_name: str):
-    print(f"📦 Installing {lib_name} ...")
+    print(f"📦 Installing {lib_name} ...\n")
     try:
         global result
         result = subprocess.run(
