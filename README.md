@@ -51,8 +51,7 @@ If u have any suggest - or send comment to issue, or send push request, <b>i`ll 
 - Python 3.10+
 ---
 ### ❓ Usage
-### Usage
-`:SuggestImports {lib_names}` - Install and import Python libraries directly from your editor.
+![Input example](LazyDevHelper/images/command_example.png)  
 Output example:
 
 ![output](LazyDevHelper/images/output_example.png)
