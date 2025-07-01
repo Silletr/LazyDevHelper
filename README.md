@@ -5,6 +5,7 @@
 <a href="https://dotfyle.com/plugins/Silletr/LazyDevHelper">
 	<img src="https://dotfyle.com/plugins/Silletr/LazyDevHelper/shield?style=flat" />
 </a>
+<a href="https://dotfyle.com/Silletr/myconfig"><img src="https://dotfyle.com/Silletr/myconfig/badges/plugin-manager?style=flat" /></a>
 ---
 ### ⚠️ WARNING:
 Still cooking... 🍳  
