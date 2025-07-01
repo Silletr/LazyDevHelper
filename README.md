@@ -23,7 +23,12 @@ Error status:
 <pre>
   26/06/2025 - <b>ISSUE 7 - CLOSED</b>
     Cause - i fixed this error and now plugin doing main functional (installing library to pip)
-</pre>    
+</pre> 
+
+<pre>
+    01.07.2025 - 
+</pre>
+   
 If u have any suggest - or send comment to issue, or send push request, <b>i`ll check it and add to main branch if your variant working</b>
 
 ### Installation:  
@@ -55,6 +60,8 @@ Example of usage:
 
 <p>If you spot any errors or want to help — feel free to create a Issua and Push Request.  
 If it works (I will test it), I’ll definitely consider adding your version to the project!</p>
+<h3>Status of 01.07.2025:
+Plugin same in development, but already can install libraries and don't adding this to requirements
 
 --- 
 TAGS (Dont pay attention)  
