@@ -60,6 +60,7 @@ Output example:
 <h3>Status of 06/26/2025:</h3>
 <b>This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.</b>
 
+<h3>Status of: 01/07/2025</h3>
+Plugin still in development, and i think how i can add libraries to requiremenents file, <b>if u have any ideas see below</b>:
 <p>If you spot any errors or want to help — feel free to create a Issua and Push Request.  
 If it works (I will test it), I’ll definitely consider adding your version to the project!</p>
-
