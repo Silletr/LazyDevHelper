@@ -47,7 +47,7 @@ If u have any suggest - or send comment to issue, or send push request, <b>i`ll 
 ---
 
 ### Installation Requirements
-- Neovim 0.7+
+- Neovim 0.9+
 - Python 3.10+
 ---
 ### ❓ Usage
