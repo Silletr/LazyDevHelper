@@ -2,7 +2,6 @@
 
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
-![DotFyle.com](https://img.shields.io/badge/Dotfyle-green?label=Available%20in&color=red)
 ---
 ### ⚠️ WARNING:
 Still cooking... 🍳  
@@ -24,13 +23,8 @@ Error status:
 <pre>
   26/06/2025 - <b>ISSUE 7 - CLOSED</b>
     Cause - i fixed this error and now plugin doing main functional (installing library to pip)
-</pre> 
-
-<pre>
-    01.07.2025 - 
-</pre>
-   
-If u have any suggest - or send comment to issue, or send push request, <b>i`ll check it and add to main branch if your variant working</b>
+</pre>    
+If u have any suggest - or send comment to issue, or send push request, <b>i`ll check it and add to main branch if your variant working
 
 ### Installation:  
 <b>Packer</b>:  
@@ -43,18 +37,12 @@ If u have any suggest - or send comment to issue, or send push request, <b>i`ll 
   }
   ```
 And thats all, what u need
----
-### 🔎 Avaible in:
-
-Vim.org - https://www.vim.org/scripts/script.php?script_id=6156  
-DotFyle.com - https://dotfyle.com/plugins/Silletr/LazyDevHelper  
-Soon i will add plugin to NeoVimCraft.
 
 ---
 ### ❓ Usage
 Just use :SuggestImports {lib_names} in needed file (or just random file, does not matter)
 Example of usage:
-:SuggestImports flask requests stmrealit 
+![command example](images/command_example.png)
 ---
 ### 📊 Status of plugin
 <h3>Status of 06/26/2025:</h3>
@@ -62,14 +50,4 @@ Example of usage:
 
 <p>If you spot any errors or want to help — feel free to create a Issua and Push Request.  
 If it works (I will test it), I’ll definitely consider adding your version to the project!</p>
-<h3>Status of 01.07.2025:
-Plugin same in development, but already can install libraries and don't adding this to requirements
 
---- 
-TAGS (Dont pay attention)  
-
-neovim
-neovim-plugin
-plugin
-autoinstall
-automation
