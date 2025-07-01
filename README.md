@@ -47,7 +47,7 @@ And thats all, what u need
 ### 🔎 Avaible in:
 
 Vim.org - https://www.vim.org/scripts/script.php?script_id=6156  
-DotFyle.com - https://dotfyle.com/plugins/Silletr/LazyDevHelper
+DotFyle.com - https://dotfyle.com/plugins/Silletr/LazyDevHelper  
 Soon i will add plugin to NeoVimCraft.
 
 ---
