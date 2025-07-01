@@ -4,7 +4,6 @@ print(">>> pip_install started <<<")
 import subprocess
 import sys
 
-
 def install_lib(lib_name: str):
     print(f"📦 Installing {lib_name} ...")
     try:
@@ -16,10 +15,10 @@ def install_lib(lib_name: str):
             capture_output=True, 
         )
         
-        print("\nInstallation Output:")
-        print(result.stdout)
-        
+       
         if "requirement already satisfied" in result.stdout.lower():
+            print("\nInstallation Output:")
+            print(result.stdout)
             print(f"✅ {lib_name} already installed")
         elif "successfully installed" in result.stdout.lower():
             print(f"✅ {lib_name} successfully installed")
@@ -31,7 +30,7 @@ def install_lib(lib_name: str):
 
 def main():
     if len(sys.argv) < 2:
-        print("⚠️ Provide at least one lib")
+        print("Provide at least one lib")
         return
 
     for lib in sys.argv[1:]:
