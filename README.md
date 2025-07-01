@@ -43,6 +43,10 @@ And thats all, what u need
 Just use :SuggestImports {lib_names} in needed file (or just random file, does not matter)
 Example of usage:
 ![command example](images/command_example.png)
+
+Output example:
+
+![output](images/output_example.png)
 ---
 ### 📊 Status of plugin
 <h3>Status of 06/26/2025:</h3>
