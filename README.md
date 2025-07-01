@@ -2,6 +2,7 @@
 
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
+![DotFyle.com](https://img.shields.io/badge/Dotfyle-green?label=Available%20in&color=red)
 ---
 ### ⚠️ WARNING:
 Still cooking... 🍳  
@@ -46,8 +47,9 @@ And thats all, what u need
 ### 🔎 Avaible in:
 
 Vim.org - https://www.vim.org/scripts/script.php?script_id=6156  
-
+DotFyle.com - https://dotfyle.com/plugins/Silletr/LazyDevHelper
 Soon i will add plugin to NeoVimCraft.
+
 ---
 ### ❓ Usage
 Just use :SuggestImports {lib_names} in needed file (or just random file, does not matter)
