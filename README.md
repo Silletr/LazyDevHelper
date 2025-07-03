@@ -1,5 +1,4 @@
 # Lazy Developer Helper
-
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Stars](https://img.shields.io/github/stars/Silletr/LazyDevHelper?style=flat-square&color=yellow)](https://github.com/Silletr/LazyDevHelper/stargazers)
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
@@ -10,7 +9,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Status](#status)
-
 
 ### Introduction
 
@@ -33,7 +31,7 @@ If u have any suggest - or send comment to issue, or send push request, <b>i`ll 
 ## Installation Requirements
 - Neovim 0.9+
 - Python 3.10+
-# Installation
+## Installation
 Packer:
 ```
 use 'https://github.com/Silletr/LazyDevHelper'
