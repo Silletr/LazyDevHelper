@@ -2,6 +2,6 @@
 .env
 __pycache__
 *.pyc
-LazyEnv # My Enviroment
+LazyEnv/ # My Enviroment
 requirements.txt
 
