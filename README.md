@@ -6,7 +6,7 @@
 ![Awesome](https://awesome.re/badge.svg)
 ---
 ### First Release! 🍾
-<b>At 1/07/2025 i released my first release version that plugin - and maybe this will be a slep into the future of NeoVim plugins, but - i dont know</b>
+<b>At 1/07/2025 i released my first release version that plugin - and maybe this will be a slep into the future of NeoVim plugins, but - i dont know.</b>
 ---
 <b>Thats plugin can help Python-developers manage dependencies directly from their editor. Currently handles pip installations and library checks, with requirements.txt support planned.</b>
 ---
@@ -17,10 +17,10 @@
 - [Status](#status)
 ---
 ## Features
-- Install Python libraries without leaving Neovim
-- Check installed libraries
-- Simple command interface
-- Packer installation support
+- Install Python libraries without leaving Neovim.
+- Check installed libraries.
+- Simple command interface.
+- Packer installation support.
 
 ## Installation
 ```lua
