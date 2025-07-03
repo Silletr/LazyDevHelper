@@ -41,10 +41,11 @@ use 'https://github.com/Silletr/LazyDevHelper'
 ---
 ## Usage
 Input:  
-
 ![Input example](LazyDevHelper/images/command_example.png)  
+
 Output example:
 ![Output](LazyDevHelper/images/output_example.png)
+
 ---
 ## Status
 <h3>Status of: 01/07/2025</h3>
