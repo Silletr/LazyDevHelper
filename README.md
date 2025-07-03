@@ -4,7 +4,6 @@
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
 [![Stars](https://img.shields.io/github/stars/Silletr/LazyDevHelper?style=flat-square&color=yellow)](https://github.com/Silletr/LazyDevHelper/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Errors](#errors)
@@ -12,10 +11,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Status](#status)
-
-
 ## Introduction
-
 > "I added 5 libs into my code before installing them, and now I need to write code with them, but I dont wanna switch to the console and write the command. Fucking world and terminal."
 > If yes — **Congratulations!** 🎉
 > **You have found the Neovim plugin that helps you manage Python dependencies without leaving your editor.**
