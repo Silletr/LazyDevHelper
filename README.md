@@ -5,11 +5,10 @@
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
 
-## Table of Contents
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Status](#Status)
-
+### Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Status](#status)
 
 ### Introduction
 
@@ -17,7 +16,7 @@
 If yes — **Congratulations!**  
 
 **You've found the Neovim plugin that can help you with both coding and installing Python libraries.**
----
+
 ### Errors
 Error status: 
 <pre>
@@ -27,14 +26,14 @@ Error status:
 **If u have any suggest - or send comment to issue, or send push request, <b>ill check it and add to main branch if your variant working**
 ---
 
-## Installation
+### Installation
 Packer:
 ```
 use 'https://github.com/Silletr/LazyDevHelper'
 ```
 
 ---
-## Usage
+### Usage
 Input:  
 ![Input example](LazyDevHelper/images/command_example.png)  
 
@@ -42,7 +41,7 @@ Output example:
 ![Output](LazyDevHelper/images/output_example.png)
 
 ---
-## Status
+### Status
 <h3>Status of: 01/07/2025</h3>
 Plugin still in development, and i think how i can add libraries to requiremenents file, <b>if u have any ideas see below</b>:
 <p>If you spot any errors or want to help — feel free to create a Issue and Push Request.  
