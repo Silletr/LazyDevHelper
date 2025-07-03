@@ -26,7 +26,7 @@ Error status:
   26/06/2025 - <b>ISSUE 7 - CLOSED</b>
     Cause - i fixed this error and now plugin doing main functional (installing library to pip)
 </pre>    
-If u have any suggest - or send comment to issue, or send push request, <b>i`ll check it and add to main branch if your variant working
+If u have any suggest - or send comment to issue, or send push request, <b>ill check it and add to main branch if your variant working.
 ---
 
 ## Installation Requirements
