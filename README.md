@@ -7,7 +7,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
 
 ### Table of Contents
-
 - [Introduction](#introduction)
 - [Errors](#errors)
 - [Installation Requirements](#installation-requirements)
