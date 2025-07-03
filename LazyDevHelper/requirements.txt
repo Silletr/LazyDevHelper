@@ -1,3 +1,0 @@
-isvirtual
-cmc-py-wrapper
-streamlit
