@@ -1,53 +1,69 @@
-# LazyDevHelper
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+### LazyDevHelper
+
 [![Stars](https://img.shields.io/github/stars/Silletr/LazyDevHelper?style=flat-square&color=yellow)](https://github.com/Silletr/LazyDevHelper/stargazers)
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
 
-## Table of Contents
+---
+### ⚠️ WARNING:
+Still cooking... 🍳  
+Right now, the plugin can only <b>check for libraries and installing</b> via pip list && pip install ...   
+Adding to requirements.txt support coming soon.
+---
+A Neovim plugin that helps Python developers manage dependencies directly from their editor. Currently handles pip installations and library checks, with requirements.txt support planned.
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Status](#status)
-
-## Features
-
+### Features
 - Install Python libraries without leaving Neovim
 - Check installed libraries
 - Simple command interface
-- Auto-adds to `requirements.txt` if found
-- Lua/Python hybrid
-
-## Installation
-
+- Packer installation support
 ```lua
-{
-  "Silletr/LazyDevHelper",
-  config = function()
-    require("LazyDevHelper.plugin.commands").commands()
-  end,
+use {
+    'Silletr/LazyDevHelper',
+    config = function()
+        require("LazyDevHelper.plugin.commands").commands()
+    end
 }
-
-Usage
-
-    Enter :SuggestImports streamlit bs4 requests
-
-    The plugin will check if the libraries are installed
-
-    If not, it'll install them via pip
-
-    It will also try to update requirements.txt if present
 ```
 
-Example input:
-![LazyDevHelper/images/command_example.png]  
-
-Output:
-[![LazyDevHelper/images/output_example.png]]
 
 ---
-# Status
-2025-06-26
-Plugin is actively in development. Lua/Python hybrid. Feedback is welcome!
+<h1>Introduction</h1>
+
+*Have you ever been in a situation like:*
+
+> "I added 5 libs into my code before installing them, and now I need to write code with them... but I don't wanna switch to the console and write command. fucking world and terminal."
+
+If yes — **Congratulations!** 🎉  
+**You've found the Neovim plugin that can help you with both coding and installing Python libraries.**
+---
+# ❌ Errors
+Error status: 
+<pre>
+  26/06/2025 - <b>ISSUE 7 - CLOSED</b>
+    Cause - i fixed this error and now plugin doing main functional (installing library to pip)
+</pre>    
+If u have any suggest - or send comment to issue, or send push request, <b>i`ll check it and add to main branch if your variant working
+---
+
+### Installation Requirements
+- Neovim 0.9+
+- Python 3.10+
+---
+### ❓ Usage
+Input:  
+
+![Input example](LazyDevHelper/images/command_example.png)  
+Output example:
+![Output](LazyDevHelper/images/output_example.png)
+---
+### 📊 Status of plugin
+<h3>Status of 06/26/2025:</h3>
+<b>This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.</b>
+
+<h3>Status of: 01/07/2025</h3>
+Plugin still in development, and i think how i can add libraries to requiremenents file, <b>if u have any ideas see below</b>:
+<p>If you spot any errors or want to help — feel free to create a Issua and Push Request.  
+If it works (I will test it), I’ll definitely consider adding your version to the project!</p>
+
