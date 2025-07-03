@@ -6,13 +6,11 @@
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
 
----
-
-## Warning
-
-Still Cooking 🍳  
-Right now, the plugin can only **check for libraries and install** via `pip list` & `pip install`
-
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Status](#status)
 ---
 # Introduction
 
