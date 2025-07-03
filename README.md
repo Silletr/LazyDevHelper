@@ -6,9 +6,11 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
 
 ## Table of Contents
+- [Installation Requirements](#installation-requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Status](#status)
+
 
 ### Introduction
 
@@ -51,5 +53,5 @@ Output example:
 
 <h3>Status of: 01/07/2025</h3>
 Plugin still in development, and i think how i can add libraries to requiremenents file, <b>if u have any ideas see below</b>:
-<p>If you spot any errors or want to help — feel free to create a Issua and Push Request.  
-If it works (I will test it), I’ll definitely consider adding your version to the project!</p>
+<p>If you spot any errors or want to help — feel free to create a Issue and Push Request.  
+If it works (I will test it), Ill definitely consider adding your version to the project!</p>
