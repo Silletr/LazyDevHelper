@@ -1,11 +1,11 @@
 # Lazy Developer Helper
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Stars](https://img.shields.io/github/stars/Silletr/LazyDevHelper?style=flat-square&color=yellow)](https://github.com/Silletr/LazyDevHelper/stargazers)
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Stars](https://img.shields.io/github/stars/Silletr/LazyDevHelper?style=flat-square&color=yellow)](https://github.com/Silletr/LazyDevHelper/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
 
-### Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 - [Errors](#errors)
 - [Installation Requirements](#installation-requirements)
@@ -13,7 +13,7 @@
 - [Usage](#usage)
 - [Status](#status)
 
-### Introduction
+## Introduction
 
 *Have you ever been in a situation like:*
 
@@ -21,18 +21,19 @@
 If yes — **Congratulations!** 🎉  
 **You have found the Neovim plugin that helps you manage Python dependencies without leaving your editor.**
 
-### Errors
+## Errors
 Error status:  
-<pre>
-26/06/2025 – <b>ISSUE 7 – CLOSED</b>  
+```text
+26/06/2025 – ISSUE 7 – CLOSED
 Cause – I fixed this error and now the plugin does its main function (installing libraries via pip)
-</pre>  
+```
 
-If you have any suggestions, feel free to open an issue or submit a pull request. I will review it and merge if it works.
-### Installation Requirements
+## Installation Requirements
+### Prerequisites
 - Neovim 0.9+
 - Python 3.10+
-### Installation
+
+## Installation
 With Packer:
 ```lua
 use {
@@ -42,11 +43,13 @@ use {
   end
 }
 ```
-### Usage
-![Input example](LazyDevHelper/images/command_example.png)  
+
+## Usage
+![Command example](LazyDevHelper/images/command_example.png "Input example")  
 Output example:
-![Output](LazyDevHelper/images/output_example.png)
-### Status
+![Output](LazyDevHelper/images/output_example.png "Output")
+
+## Status
 Status as of 01/07/2025:
-Plugin released succefully.
+Plugin released successfully.
 If you have ideas or spot bugs, open an issue or PR—if it works, I will merge it.
