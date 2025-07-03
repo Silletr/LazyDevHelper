@@ -42,9 +42,10 @@ use {
 ```
 
 ## Usage
-![Input example](LazyDevHelper/images/command_example.png "Input example")  
+Command example:
+![Input example](LazyDevHelper/images/command_example.png)  
 Output example:
-![Output](LazyDevHelper/images/output_example.png "Output")
+![Output](LazyDevHelper/images/output_example.png)
 
 ## Status
 Status as of 01/07/2025:
