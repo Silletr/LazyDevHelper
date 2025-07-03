@@ -3,8 +3,7 @@
 [![Lua](https://img.shields.io/badge/Lua-5.4.8-purple.svg?logo=lua&logoColor=white)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
-
-[![Awesome](https://awesome.re/badge.svg)]
+![Awesome](https://awesome.re/badge.svg)
 ---
 ### First Release! 🍾
 <b>At 1/07/2025 i released my first release version that plugin - and maybe this will be a slep into the future of NeoVim plugins, but - i dont know</b>
