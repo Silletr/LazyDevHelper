@@ -10,8 +10,9 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Status](#status)
----
-# Introduction
+
+
+### Introduction
 
 *Have you ever been in a situation like:*
 
@@ -20,7 +21,7 @@
 If yes — **Congratulations!** 🎉  
 **You've found the Neovim plugin that can help you with both coding and installing Python libraries.**
 ---
-# Errors
+### Errors
 Error status: 
 <pre>
   26/06/2025 - <b>ISSUE 7 - CLOSED</b>
@@ -29,7 +30,7 @@ Error status:
 If u have any suggest - or send comment to issue, or send push request, <b>i`ll check it and add to main branch if your variant working
 ---
 
-# Installation Requirements
+## Installation Requirements
 - Neovim 0.9+
 - Python 3.10+
 # Installation
@@ -39,14 +40,14 @@ use 'https://github.com/Silletr/LazyDevHelper'
 ```
 
 ---
-# Usage
+### Usage
 Input:  
 
 ![Input example](LazyDevHelper/images/command_example.png)  
 Output example:
 ![Output](LazyDevHelper/images/output_example.png)
 ---
-# Status
+## Status
 <h3>Status of 06/26/2025:</h3>
 <b>This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.</b>
 
