@@ -17,8 +17,7 @@
 *Have you ever been in a situation like:*
 
 > "I added 5 libs into my code before installing them, and now I need to write code with them, but I don't wanna switch to the console and write command. fucking world and terminal."
-
-If yes — **Congratulations!** 🎉  
+If yes — **Congratulations!** 🎉.  
 **You've found the Neovim plugin that can help you with both coding and installing Python libraries.**
 ---
 ### Errors
@@ -40,7 +39,7 @@ use 'https://github.com/Silletr/LazyDevHelper'
 ```
 
 ---
-### Usage
+## Usage
 Input:  
 
 ![Input example](LazyDevHelper/images/command_example.png)  
@@ -48,9 +47,6 @@ Output example:
 ![Output](LazyDevHelper/images/output_example.png)
 ---
 ## Status
-<h3>Status of 06/26/2025:</h3>
-<b>This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.</b>
-
 <h3>Status of: 01/07/2025</h3>
 Plugin still in development, and i think how i can add libraries to requiremenents file, <b>if u have any ideas see below</b>:
 <p>If you spot any errors or want to help — feel free to create a Issue and Push Request.  
