@@ -13,8 +13,8 @@
 - [Status](#status)
 ## Introduction
 > "I added 5 libs into my code before installing them, and now I need to write code with them, but I dont wanna switch to the console and write the command. Fucking world and terminal."
-> If yes — **Congratulations!** 🎉
-> **You have found the Neovim plugin that helps you manage Python dependencies without leaving your editor.**
+If yes — **Congratulations!** 🎉
+**You have found the Neovim plugin that helps you manage Python dependencies without leaving your editor.**
 
 ## Errors
 Error status:  
