@@ -11,15 +11,14 @@
 ## Warning
 
 Still Cooking 🍳  
-Right now, the plugin can only **check for libraries and install** via `pip list` & `pip install`...  
-Adding support for `requirements.txt` coming soon.
+Right now, the plugin can only **check for libraries and install** via `pip list` & `pip install`
 
 ---
 # Introduction
 
 *Have you ever been in a situation like:*
 
-> "I added 5 libs into my code before installing them, and now I need to write code with them... but I don't wanna switch to the console and write command. fucking world and terminal."
+> "I added 5 libs into my code before installing them, and now I need to write code with them, but I don't wanna switch to the console and write command. fucking world and terminal."
 
 If yes — **Congratulations!** 🎉  
 **You've found the Neovim plugin that can help you with both coding and installing Python libraries.**
