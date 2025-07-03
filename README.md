@@ -4,12 +4,19 @@
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
 
+[![Awesome](https://awesome.re/badge.svg)]
 ---
 ### First Release! 🍾
 <b>At 1/07/2025 i released my first release version that plugin - and maybe this will be a slep into the future of NeoVim plugins, but - i dont know</b>
 ---
 <b>Thats plugin can help Python-developers manage dependencies directly from their editor. Currently handles pip installations and library checks, with requirements.txt support planned.</b>
-
+---
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Status](#status)
+---
 ## Features
 - Install Python libraries without leaving Neovim
 - Check installed libraries
