@@ -19,10 +19,10 @@
 
 *Have you ever been in a situation like:*
 
-> “I added 5 libs into my code before installing them, and now I need to write code with them, but I don’t wanna switch to the console and write the command. Fucking world and terminal.”
+> “I added 5 libs into my code before installing them, and now I need to write code with them, but I dont wanna switch to the console and write the command. Fucking world and terminal.”
 
 If yes — **Congratulations!** 🎉  
-**You’ve found the Neovim plugin that helps you manage Python dependencies without leaving your editor.**
+**You have found the Neovim plugin that helps you manage Python dependencies without leaving your editor.**
 
 ### Errors
 
@@ -32,7 +32,7 @@ Error status:
 Cause – I fixed this error and now the plugin does its main function (installing libraries via pip)
 </pre>  
 
-If you have any suggestions, feel free to open an issue or submit a pull request. I’ll review it and merge if it works.
+If you have any suggestions, feel free to open an issue or submit a pull request. I will review it and merge if it works.
 
 ### Installation Requirements
 - Neovim 0.9+
@@ -55,4 +55,5 @@ Output example:
 ![Output](LazyDevHelper/images/output_example.png)
 ### Status
 Status as of 01/07/2025:
-Thinking about adding requirements.txt support. If you have ideas or spot bugs, open an issue or PR—if it works, I will merge it.
+Plugin released succefully.
+If you have ideas or spot bugs, open an issue or PR—if it works, I will merge it.
