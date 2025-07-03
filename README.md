@@ -4,6 +4,7 @@
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org)
 [![Stars](https://img.shields.io/github/stars/Silletr/LazyDevHelper?style=flat-square&color=yellow)](https://github.com/Silletr/LazyDevHelper/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Errors](#errors)
@@ -11,19 +12,24 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Status](#status)
-## Introduction
-> "I added 5 libs into my code before installing them, and now I need to write code with them, but I dont wanna switch to the console and write the command. Fucking world and terminal."
 
-If yes — **Congratulations!** 🎉
-**You have found the Neovim plugin that helps you manage Python dependencies without leaving your editor.**
+## Introduction
+
+Have you ever been in a situation like this?
+
+> “I added 5 libs into my code before installing them, and now I need to write code with them, but I don’t wanna switch to the console and write the command. Fucking world and terminal.”
+
+If yes — **Congratulations!** 🎉  
+**You’ve found the Neovim plugin that helps you manage Python dependencies without leaving your editor.**
 
 ## Errors
-Error status:  
+
+Error status:
+
 ```text
-26/06/2025 – ISSUE 7 – CLOSED
+26/06/2025 – ISSUE 7 – CLOSED  
 Cause – I fixed this error and now the plugin does its main function (installing libraries via pip)
 ```
-
 ## Installation Requirements
 - Neovim 0.9+
 - Python 3.10+
