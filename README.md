@@ -6,7 +6,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
 
 ---
-### ⚠️ WARNING
+# ⚠️ WARNING
 Still cooking... 🍳  
 Right now, the plugin can only <b>check for libraries and installing</b> via pip list && pip install ...   
 Adding to requirements.txt support coming soon.
@@ -51,14 +51,14 @@ If u have any suggest - or send comment to issue, or send push request, <b>i`ll 
 - Neovim 0.9+
 - Python 3.10+
 ---
-### ❓ Usage
+# ❓ Usage
 Input:  
 
 ![Input example](LazyDevHelper/images/command_example.png)  
 Output example:
 ![Output](LazyDevHelper/images/output_example.png)
 ---
-### 📊 Status of plugin
+# 📊 Status of plugin
 <h3>Status of 06/26/2025:</h3>
 <b>This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.</b>
 
