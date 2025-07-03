@@ -6,7 +6,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
 
 ---
-### ⚠️ WARNING:
+### ⚠️ WARNING
 Still cooking... 🍳  
 Right now, the plugin can only <b>check for libraries and installing</b> via pip list && pip install ...   
 Adding to requirements.txt support coming soon.
