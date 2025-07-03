@@ -7,7 +7,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
 
 ## Table of Contents
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Status](#status)
@@ -33,6 +32,12 @@ If u have any suggest - or send comment to issue, or send push request, <b>i`ll 
 # Installation Requirements
 - Neovim 0.9+
 - Python 3.10+
+# Installation
+Packer:
+```
+use 'https://github.com/Silletr/LazyDevHelper'
+```
+
 ---
 # Usage
 Input:  
@@ -41,7 +46,7 @@ Input:
 Output example:
 ![Output](LazyDevHelper/images/output_example.png)
 ---
-# Status of plugin
+# Status
 <h3>Status of 06/26/2025:</h3>
 <b>This plugin is still in development. It's being built by a Python developer (me), who's learning Lua and Neovim's API to provide the best possible user experience.</b>
 
