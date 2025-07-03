@@ -1,4 +1,4 @@
-# LazyDevHelper
+# Lazy Developer Helper
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Stars](https://img.shields.io/github/stars/Silletr/LazyDevHelper?style=flat-square&color=yellow)](https://github.com/Silletr/LazyDevHelper/stargazers)
@@ -10,12 +10,12 @@
 
 ## Warning
 
-Still Cooking... 🍳  
+Still Cooking 🍳  
 Right now, the plugin can only **check for libraries and install** via `pip list` & `pip install`...  
 Adding support for `requirements.txt` coming soon.
 
 ---
-<h1>Introduction</h1>
+# Introduction
 
 *Have you ever been in a situation like:*
 
