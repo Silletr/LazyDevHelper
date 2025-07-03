@@ -6,17 +6,16 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Silletr/LazyDevHelper/pulls)
 
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Status](#status)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Status](#Status)
 
 
 ### Introduction
 
-*Have you ever been in a situation like:*
+*Have you ever been in a situation like:* "**I added 5 libs into my code before installing them, and now I need to write code with them, but I don't wanna switch to the console and write command. fucking world and terminal.**"  
+If yes — **Congratulations!**  
 
-> "I added 5 libs into my code before installing them, and now I need to write code with them, but I don't wanna switch to the console and write command. fucking world and terminal."
-If yes — **Congratulations!** 
 **You've found the Neovim plugin that can help you with both coding and installing Python libraries.**
 ---
 ### Errors
@@ -25,7 +24,7 @@ Error status:
   26/06/2025 - <b>ISSUE 7 - CLOSED</b>
     Cause - i fixed this error and now plugin doing main functional (installing library to pip)
 </pre>    
-If u have any suggest - or send comment to issue, or send push request, <b>ill check it and add to main branch if your variant working
+**If u have any suggest - or send comment to issue, or send push request, <b>ill check it and add to main branch if your variant working**
 ---
 
 ## Installation
