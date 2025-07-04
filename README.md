@@ -14,7 +14,7 @@
 ## Introduction
 Have you ever been in a situation like this?
 
-> "I added 5 libs into my code before installing them, and now I need to write code with them, but I don’t wanna switch to the console and write the command. Fucking world and terminal."
+> I added 5 libs into my code before installing them, and now I need to write code with them, but I don’t wanna switch to the console and write the command. Fucking world and terminal.
 
 If yes — **Congratulations!** 🎉  
 **You’ve found the Neovim plugin that helps you manage Python dependencies without leaving your editor.**
